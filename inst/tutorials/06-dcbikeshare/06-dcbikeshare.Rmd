@@ -1180,7 +1180,7 @@ glance(___)$___
 ```
 
 ```{r remove-humidityraw-check}
-grade_result({
+grade_this({
    if(identical(as.numeric(round(.result, digits = 4)), 0.8151)) {
      pass("You have fit the model correctly")
    }
