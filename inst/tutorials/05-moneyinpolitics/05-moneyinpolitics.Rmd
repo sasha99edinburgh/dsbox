@@ -445,7 +445,7 @@ Think about which function we could use to calculate the *n*umber of *row*s...
 ```{r pac-2020-observations-check}
 grade_this({
   if(identical(.result, 226) | identical(.result, 226L)) {
-    pass("There are 224 observations in the pac_2020 dataset.")
+    pass("There are 226 observations in the pac_2020 dataset.")
   }
   if(identical(.result, 5) | identical(.result, 5L)) {
     fail("Each observation is represented in one row. Did you calculate the number of columns instead of rows?")
